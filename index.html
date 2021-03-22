@@ -9,10 +9,12 @@
 		<title>Talking Tech with Guido Santella</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<link rel="stylesheet" href="assets/css/mediabox.min.css">
+		<link rel="stylesheet" href="dist/main.css" />
+		<link rel="stylesheet" href="dist/basicLightbox.min.css" />
+
+
 	</head>
-	<body class="homepage is-preload">
+	<body>
 		<div id="page-wrapper">
 
 			<!-- Header -->
@@ -22,7 +24,7 @@
 					<div class="container">
 						<div class="row">
 							<div class="col-12">
-
+								
 								<!-- Portfolio -->
 									<section>
 										<header class="major">
@@ -30,14 +32,17 @@
 										</header>
 										<div class="row">
 											<div class="col-4 col-6-medium col-12-small">
-												<section class="box">
-													<a href="https://youtu.be/B1ZT7YBuneY" class="image featured mediabox"><img src="images/bandwidth.jpg" alt="" /></a>
-													<header>
-														<h3>What is Bandwidth</h3>
-													</header>
-													<p>Internet upload, download, and speed.  We always want more and always want faster, but what is is anyway?</p>
-													
-												</section>
+												
+													<section class="box">
+														<figure class="iframe">														
+															<a class="image featured"><img src="images/bandwidth.jpg" alt="" /></a>
+															<header>
+																<h3>What is Bandwidth</h3>
+															</header>
+															<p>Internet upload, download, and speed.  We always want more and always want faster, but what is it anyway?</p>
+														</figure>
+													</section>
+												
 											</div>
 											<div class="col-4 col-6-medium col-12-small">
 												<section class="box">
@@ -195,17 +200,9 @@
 		</div>
 
 		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.dropotron.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
 			
-			<script src="assets/js/mediabox.min.js"></script>
-			<script>
-				MediaBox('.mediabox');
-			</script>
+			<script src="dist/basicLightbox.min.js"></script>
+			<script src="dist/script.js"></script>
 	
 </body>
 </html>
